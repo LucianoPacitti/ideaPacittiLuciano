@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto Pacitti Hnos</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+  <header>
+    <div class="flex">
+      <a href="../index.html">
+        <img src="../imagenes/pacittiHnos.png" alt="" class="pacittiHnos">
+      </a>
+    </div>
+    <nav class="navegacion">
+      <!--lista desordenada-->
+      <ul class="menu">
+        <li>
+          <a href="nosotros.html"> Nosostros </a>
+        </li>
+        <li>
+          <a href="productos.html"> Productos </a>
+        </li>
+        <li>
+          <a href="servicio.html"> Servicio </a>
+        </li>
+        <li>
+          <a href="../index.html"> Home </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <a href="https://web.whatsapp.com/" target="_blank">
+    <img src="../imagenes/Whatsapp_icon.png" class="whatsapp">
+  </a>
+
+  <main>
+    <h1> Contactanos </h1>
+    <p class="formulario">Si tenes alguna duda o consulta completa el siguiente formulario.</p>
+    <section class="formulario__contacto">
+      <!-- crear nuestro formulario-->
+      <form>
+        <fieldset>
+          <legend> Formulario </legend>
+          <div class="colornombre">
+            <label for="nombre"> Completa tu nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="completa tu nombre">
+          </div>
+          <br>
+          <div>
+            <label for="email"> Completa tu email</label>
+            <input type="email" name="email" id="email" required placeholder="completa tu email">
+          </div>
+          <br>
+          <div>
+            <label for="telefono"> Telefono</label>
+            <input type="tel" name="telefono" id="telefono" required placeholder="telefono">
+          </div>
+          <br>
+          <div>
+            <p>Desea recibir novedades?</p>
+            <input type="checkbox" name="acepta" id="acepta" value="1">
+          </div>
+          <br>
+          <div>
+            <label for="interes"> Me interesa</label>
+            <select id="interes" name="interes">
+              <option value="">elige una opcion</option>
+              <option value="cajafuerte">Cajas fuerte</option>
+              <option value="cerradura">Cerraduras</option>
+              <option value="cerrojos">Cerrojos</option>
+              <option value="manijas">Manijas</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label for="text"> Mensaje: </label> <br>
+            <textarea name="text" id="text" rows="10" cols="30">Escribi tu mensaje aqui</textarea>
+          </div>
+          <br>
+          <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+          </div>
+        </fieldset>
+      </form>
+
+      <h1>Ubicacion</h1>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.1833610425844!2d-60.70643191729817!3d-31.641147919085952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9bbd121ca61%3A0x8dab11f9872cde7c!2sCerrajer%C3%ADa%20Pacitti!5e0!3m2!1ses!2sar!4v1648056215743!5m2!1ses!2sar"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="info">
+    <div class="telefonoDireccion">
+      <p>Dir.: San Jeronimo 2998.</p>
+      <p>Santa fe - 3000</p>
+      <p>Argentina</p>
+      <p>Tel.: 342-4531692</p>
+    </div>
+
+    <div class="info__footer">
+      <div class="redesSociales">
+        <a href="https://www.instagram.com/cerrajeriapacitti/" target="_blank">
+          <img src="../imagenes/Instagram_icon.png" class="instagram">
+        </a>
+
+        <a href="https://www.facebook.com/cerrajeriapacitti" target="_blank">
+          <img src="../imagenes/Facebook_icon.png" class="facebook">
+        </a>
+      </div>
+    </div>
+    <div>
+      <p>
+        Todos los derechos reservados - 2022.
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
