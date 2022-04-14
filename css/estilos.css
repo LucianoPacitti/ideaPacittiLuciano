@@ -248,66 +248,51 @@ main >section > h1{
 
 .llaves{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: column;    
     align-items: center;
-    justify-content: space-evenly;
+    
 }
 .alarmaAuto{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: column;    
     align-items: center;
-    justify-content: space-evenly;
 }
 .herrajes{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;    
+    align-items: center; 
 }
 .cerradura{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;    
+    align-items: center;   
 }
 .estante{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;    
+    align-items: center;    
 }
 .pasadores{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;    
+    align-items: center;  
 }
 .picaporte{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: column;    
     align-items: center;
     justify-content: space-evenly;
 }
 .cerraduraDos{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: column;    
     align-items: center;
     justify-content: space-evenly;
 }
 .mensula{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 /* MEDIAS QUERY  */
