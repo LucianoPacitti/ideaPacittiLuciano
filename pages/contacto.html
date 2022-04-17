@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto Pacitti Hnos</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
@@ -47,14 +48,13 @@
       <form>
         <fieldset>
           <legend> Formulario </legend>
-          <div class="colornombre">
-            <label for="nombre"> Completa tu nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="completa tu nombre">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Completa tu nombre">
           </div>
-          <br>
-          <div>
-            <label for="email"> Completa tu email</label>
-            <input type="email" name="email" id="email" required placeholder="completa tu email">
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Completa tu apellido">
           </div>
           <br>
           <div>
@@ -63,29 +63,34 @@
           </div>
           <br>
           <div>
-            <p>Desea recibir novedades?</p>
-            <input type="checkbox" name="acepta" id="acepta" value="1">
+            <label for="email"> Completa tu email</label>
+            <input type="email" name="email" id="email" required placeholder="completa tu email">
+          </div>
+          <br>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+              Quiero recibir novedades
+            </label>
           </div>
           <br>
           <div>
-            <label for="interes"> Me interesa</label>
-            <select id="interes" name="interes">
-              <option value="">elige una opcion</option>
-              <option value="cajafuerte">Cajas fuerte</option>
-              <option value="cerradura">Cerraduras</option>
-              <option value="cerrojos">Cerrojos</option>
-              <option value="manijas">Manijas</option>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Me interesa</option>
+              <option value="1">Cajas fuerte</option>
+              <option value="2">Cerraduras</option>
+              <option value="3">Pasadores</option>
             </select>
           </div>
           <br>
-          <div>
-            <label for="text"> Mensaje: </label> <br>
-            <textarea name="text" id="text" rows="10" cols="30">Escribi tu mensaje aqui</textarea>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Dejanos tu mensaje" id="floatingTextarea2" style="width: 300px; height: 150px"></textarea>
+            <label for="floatingTextarea2"></label>
           </div>
           <br>
           <div>
             <input type="submit" value="Enviar">
-            <input type="reset" value="Resetear">
+            <input type="reset" value="Resetear">  
           </div>
         </fieldset>
       </form>
@@ -124,7 +129,7 @@
       </p>
     </div>
   </footer>
-
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
