@@ -4,9 +4,12 @@
     padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-  
+
+$color-background: rgb(217, 218, 219);
+$color-footer: rgb(148, 184, 216);
+
 body{
-    background-color: rgb(217, 218, 219);
+    background-color: $color-background;
 }
 
 header{
@@ -32,7 +35,7 @@ header{
 }
 .menu{
     list-style: none;
-    background-color: #c7ced5;
+    background-color: $color-background;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -144,9 +147,10 @@ header{
 .redesSociales{
     display: flex;
     flex-direction: column;
-}
-.redesSociales > a{
+
+     a{
     width: 20px;
+    }
 }
 .instagram{
     width: 200%;
@@ -169,7 +173,7 @@ header{
     margin: 10px;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
-    background-color:rgb(148, 184, 216)
+    background-color: $color-footer;
 }
 .info__footer{
     display: flex;
