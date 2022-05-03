@@ -1,8 +1,70 @@
 /* esto es un comentario en css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 * {
   margin: 0;
   padding: 0; }
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.boton, .botonDos, .botonTres, .botonCuatro, .botonCinco, .botonSeis, .botonSiete, .botonOcho, .botonNueve, .botonDiez, .botonOnce, .botonDoce {
+  background-color: #ad98c2;
+  text-align: center;
+  color: #080606;
+  border-radius: 5px;
+  border: 1px solid #a09797;
+  padding: 1px 8px;
+  text-decoration: none; }
+  .boton:hover, .botonDos:hover, .botonTres:hover, .botonCuatro:hover, .botonCinco:hover, .botonSeis:hover, .botonSiete:hover, .botonOcho:hover, .botonNueve:hover, .botonDiez:hover, .botonOnce:hover, .botonDoce:hover {
+    filter: opacity(70%);
+    background-color: #8d7b7b; }
+
+.botonDos {
+  color: #315e5e; }
+
+.botonTres {
+  color: #2b8383; }
+
+.botonCuatro {
+  color: #196363; }
+
+.botonCinco {
+  color: #5528fa; }
+
+.botonSeis {
+  color: #4621ca; }
+
+.botonSiete {
+  color: #341899; }
+
+.botonOcho {
+  color: #21105f; }
+
+.botonNueve {
+  color: #295f31; }
+
+.botonDiez {
+  color: #2b5030; }
+
+.botonOnce {
+  color: #018312; }
+
+.botonDoce {
+  color: #00490a; }
+
+.letraChica {
+  font-size: 1.2rem;
+  font-weight: 100; }
+
+.letraMediana {
+  font-size: 1.5rem;
+  font-weight: 500; }
+
+.botonFacebook {
+  background-color: #8d8dc4;
+  border-radius: 5px; }
+
+.botonInstagram {
+  background-color: #834c4c;
+  border-radius: 5px; }
+
 body {
   background-color: #d9dadb; }
 
@@ -52,9 +114,7 @@ header {
 /* NOSOTROS */
 .negocio {
   display: grid;
-  grid-template-areas: "nosotros__texto nosotros__foto"
- "nosotros__texto__dos nosotros__foto__dos"
- "nosotros__tres nosotros__tres"; }
+  grid-template-areas: "nosotros__texto nosotros__foto" "nosotros__texto__dos nosotros__foto__dos" "nosotros__tres nosotros__tres"; }
 
 .nosotros__texto {
   grid-area: nosotros__texto; }
@@ -83,12 +143,14 @@ header {
 .nosotros {
   margin: 10px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px; }
 
 .nosotros__dos {
   margin: 10px;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px; }
 
 .nosotros__tres {
   text-align: center;
@@ -174,6 +236,9 @@ header {
   align-items: center; }
 
 .formulario__contacto > div > h1 {
+  font-family: 'Roboto', sans-serif; }
+
+.formulario__contacto > h2 {
   font-family: 'Roboto', sans-serif; }
 
 .formulario {

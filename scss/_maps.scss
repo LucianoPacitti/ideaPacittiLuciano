@@ -1,0 +1,15 @@
+$redes: (
+    Facebook: rgb(141, 141, 196),
+    Instagram: rgb(131, 76, 76),
+);
+
+.botonFacebook {
+    background-color: map-get($map: $redes, $key: Facebook);
+    border-radius: 5px;
+}
+
+.botonInstagram {
+    background-color: map-get($map: $redes, $key: Instagram);
+    border-radius: 5px;
+
+}

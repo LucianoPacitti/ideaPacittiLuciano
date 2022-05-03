@@ -3,10 +3,8 @@
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-$color-background: rgb(217, 218, 219);
-$color-footer: rgb(148, 184, 216);
+@import'variables';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
 body{
     background-color: $color-background;
@@ -96,11 +94,13 @@ header{
     margin: 10px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 .nosotros__dos{
     margin: 10px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 .nosotros__tres{
     text-align: center;
@@ -195,6 +195,8 @@ header{
 .formulario__contacto > div > h1{
         font-family: 'Roboto', sans-serif;
 }
+.formulario__contacto > h2 {
+    font-family: 'Roboto', sans-serif; }
 .formulario{
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
