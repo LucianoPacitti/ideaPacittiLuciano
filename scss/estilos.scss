@@ -120,7 +120,7 @@ header{
     font-family: 'Roboto', sans-serif;    
 }
 .presentacion{
-    font-size: 55px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -187,30 +187,38 @@ header{
 }
 
 /* FORMULARIO */
-.formulario__contacto{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-}
-.formulario__contacto > div > h1{
-        font-family: 'Roboto', sans-serif;
-}
-.formulario__contacto > h2 {
+.formulario__contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  
+  .formulario__contacto > div > h1 {
     font-family: 'Roboto', sans-serif; }
-.formulario{
+  
+  .formulario__contacto > h2 {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0 5px 0; }
+  
+  .formulario {
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding-bottom: 8px;
-}
-fieldset{
-    background-color: rgb(223, 230, 230);
+    padding-bottom: 8px; }
+  .mb-3{
+    padding-bottom: 4px;}
+  .form-floating{
+    padding-top: 4px;
+  }
+  fieldset {
+    background-color: #d5dbdf;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-}
-legend{
-    padding: 10px 120px;
-}
+    width:200px;
+    border-radius:8px;box-shadow:0 0 30px -10px rgb(32, 32, 32);
+    margin: 30px, auto;
+    padding:20px 30px;
+    border: 0;
+  }
 
 /* SERVICIO */
 main > h1{
@@ -227,7 +235,7 @@ main >section > h1{
 .servicio__Grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30% 30% auto;
+    grid-template-rows: 30% 33% auto;
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     padding: 8px;
@@ -309,14 +317,14 @@ main >section > h1{
 }
 
 /* MEDIAS QUERY  */
-@media screen and (max-width: 780px)  and (min-width: 320px)  {
+@media screen and (max-width: 780px){
     .info{
         display: none;
     }
     .servicio__Grid{
         display: grid;
         grid-template-columns: auto auto;
-        
+        grid-template-rows: auto;
     }
     .imagenFrente{
         width: 50%;

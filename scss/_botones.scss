@@ -3,68 +3,68 @@
     text-align: center;
     color: rgb(8, 6, 6);
     border-radius: 5px;
-    border: 1px solid rgb(160, 151, 151);
+    border: 1.3px solid rgb(94, 91, 91);
     padding: 1px 8px;
     text-decoration: none;
 
     &:hover{
-        filter: opacity(70%);
-        background-color: rgb(141, 123, 123);
+        filter: opacity(90%);
+        background-color: rgb(175, 207, 221);
         }
 }
 
 .botonDos{
     @extend .boton;
-    color: rgb(49, 94, 94);
+    color: rgb(8, 6, 6);
 
 }
 
 .botonTres{
     @extend .boton;
-    color: rgb(43, 131, 131);
+    color: rgb(8, 6, 6);
 }
 
 .botonCuatro{
     @extend .boton;
-    color: rgb(25, 99, 99);
+    color: rgb(8, 6, 6);
 }
 
 .botonCinco{
     @extend .boton;
-    color: rgb(85, 40, 250);
+    color: rgb(8, 6, 6);
 }
 
 .botonSeis{
     @extend .boton;
-    color: rgb(70, 33, 202);
+    color: rgb(8, 6, 6);
 }
 
 .botonSiete{
     @extend .boton;
-    color: rgb(52, 24, 153);
+    color: rgb(8, 6, 6);
 }
 
 .botonOcho{
     @extend .boton;
-    color: rgb(33, 16, 95);
+    color: rgb(8, 6, 6);
 }
 
 .botonNueve{
     @extend .boton;
-    color: rgb(41, 95, 49);
+    color: rgb(8, 6, 6);
 }
 
 .botonDiez{
     @extend .boton;
-    color: rgb(43, 80, 48);
+    color: rgb(8, 6, 6);
 }
 
 .botonOnce{
     @extend .boton;
-    color: rgb(1, 131, 18);
+    color: rgb(8, 6, 6);
 }
 
 .botonDoce{
     @extend .boton;
-    color: rgb(0, 73, 10);
+    color: rgb(8, 6, 6);
 }
